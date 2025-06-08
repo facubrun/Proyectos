@@ -1,0 +1,9 @@
+li{
+    color:  grey;
+}
+.ingrediente-faltante {                 /* modificamos el estilo de todos los p*/    
+    color:  red; 
+}
+#ingrediente-secreto{
+    color:  blue;
+}

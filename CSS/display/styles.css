@@ -1,0 +1,73 @@
+/*body {
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+    background-color: #aaa;
+}
+
+a {
+    background-color: red;
+    color: #fff;
+    display: block; /* un elemento de linea se convierte en un elem de bloque/
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 10px;
+}
+
+.div_con_p_inline {
+    margin-top: 10px;
+
+}
+
+p {
+    background-color: #000;
+    color: #fff;
+    display: inline; /*p pasa de bloque a en linea/
+    margin: 5px;
+} */
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #48e;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+}
+
+.nav__link:hover {
+    background-color: #59e;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #48e;
+}
+
+.link--button {
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 4px 16px;
+    color: #48e;
+    border-radius: 3px;
+    margin-left: 40px;
+    /*display: none --- no aparece en la pagina, es como que no estuviera*/
+}
+
+.link--button:hover{
+    background-color: transparent;
+    color: #fff;
+}

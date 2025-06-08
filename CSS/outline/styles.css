@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.box {
+    width: 150px;
+    background-color: #f00;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid #000;
+    padding: 10px;
+}
+
+.box:hover {
+    outline: 5px solid #00f; /* queda mas lindo que cambiar el border*/
+}
+
+input {
+    margin: 50px;
+    border: none;
+    border-top: 2px solid #000;
+    padding: 6px;
+    outline: 3px solid #00f;
+    outline-offset: 5px;
+    transition: outline .2s, outline-offset .2s;
+}
+
+input:focus {
+    border-color: #00f;
+    color: #00f;
+}
+
+input:focus-visible{ /* para que en tecnologia accesible se vea igualmente el input(si lo poniamos en input:visible iba a quedar oculto)*/
+    outline: none; /* le sacamos el efecto que tiene al hacer click en el input*/
+}

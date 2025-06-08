@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: #48e;
+    margin: 10px;
+}
+
+.box-default{
+    box-sizing: border-box;
+    padding: 30px;
+    border: 5px solid black;
+}
+
+.box-new{
+    box-sizing: border-box;  /* me mantiene el total del tamaño de la caja*/
+    padding: 30px;
+    border: 5px solid black;
+}

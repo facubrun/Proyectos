@@ -1,0 +1,35 @@
+.formulario{
+    background: blue;
+    padding: 30px; /*padding top padd right padd bottom pad left*/
+    /* padding: 20px 30px seria para relleno vertical - relleno horizontal*/
+}
+
+.formulario_input{
+    padding: 9px 10px;   /* padding para todos los lados 10px*/
+    width: 80%;
+    background: wheat;
+    color:black;
+    margin: 10px;
+}
+
+.formulario_submit{
+    
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    background-color: black;
+    width: 83%;
+    color:white;
+}
+
+/*boxes*/
+.box{
+    background: red;
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+}
+body{
+    margin: 0;
+    display: flex;          /*para que las boxes se separen 30px(sin esto se separan 15px, o sea toma el mayor margen de los dos, no los suma*/
+    flex-direction: column;
+}

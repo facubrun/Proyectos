@@ -1,0 +1,19 @@
+body{
+    color: blue;
+    font-family: sans-serif;
+}
+
+div {
+    width: 50%;
+    color: red;
+}
+
+h1 {
+    color: inherit; /* busca a un elemento padre que tenga esta propiedad definida*/
+    width: inherit; /*aca si obligamos a que tenga el width de div(padre)*/
+}
+
+p {
+    color: unset; /*restablece al valor inicial*/
+    font-family: initial; /* el estilo del navegador*/
+}

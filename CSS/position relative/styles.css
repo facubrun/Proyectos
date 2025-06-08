@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: #ededed;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    position: relative; /*la caja se desplaza a donde quieramos, pero mantiene reservado su lugar original*/
+    z-index: 10;
+}
+
+.box--blue {
+    background-color: blue;
+    top: 40px;
+    left: 30px; /*si estas 2 estan definidas, right y bottom no se tienen en cuenta*/
+    z-index: 20;
+}
+
+.box:first-child {
+    top: 120px;
+    left: 60px;
+    background-color: red;
+    z-index: 30;
+}

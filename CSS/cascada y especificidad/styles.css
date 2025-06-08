@@ -1,0 +1,19 @@
+#titulo {         /* especificidad (1,0,0)>(0,1,0) un elemento con id es mas especif. que uno con clase */
+    color: green;
+}
+
+body .titulo {         /* especificidad (0,1,1)>(0,0,1), un elemento se hace mas espeficico si le asignamos una clase */
+    color: red !important /* !important sobreescribe todo lo demas*/
+}
+
+h1 {              /* especificidad (0,0,1) */
+    color: blue !important
+}
+
+/*ASI FUNCIONA LA CASCADA: !IMPORTANT > 
+                            STYLE ="" > 
+                            DEFINIRLO EN CSS O <STYLE> >
+                            VALORES INICIALES ELEGIDOS POR EL USER >
+                            VALORES INICIALES DE GOOGLE */
+
+/* SI APLICAMOS IMPORTANT A UNO O MAS VALORES, SE VUELVE A APLICAR LA CASCADA CON LOS !IMPORTANT Y AHI SE DECIDE CUAL ES EL QUE SE TOMA */                            

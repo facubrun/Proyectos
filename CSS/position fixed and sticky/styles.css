@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.overlay {
+    background: linear-gradient(to top, #fff, transparent);
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+}
+
+.contenedor {
+    padding: 50px;
+    background-color: #00f;
+    position: relative;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 50px;
+    position: fixed; /*SIEMPRE SE POSICIONA RESPECTO A LA CAJA. Se elimina el espacio reservado en la pagina, como en absolute. PERO en fixed no se ajusta al contenedor padre si es relative, se mantiene donde esta*/
+    background-color: #fff;
+    right: 0;
+    border: 1px solid #000;
+    border-right: 0;
+    box-shadow: 0 0 40px #0009;
+    z-index: 30;
+}
+
+.box-fixed {
+    width: 200px;
+    height: 50px;
+    position: sticky; /*cuando scrolleo sigue mostrandose en la pagina*/
+    top: 100px;
+    background-color: #f00;
+    z-index: 40;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.first {
+    top: 30px;
+}
+
+.last {
+    top: 170px;
+}

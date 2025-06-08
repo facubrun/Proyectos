@@ -1,0 +1,34 @@
+/*SELECTOR DE ATRIBUTO*/
+img[src$="png"] { /* $ para especificar los ultimos caracteres de la imagen, ^ para los primeros*/
+    width: 50%;
+}
+
+/*SELECCION DESCENDIENTE*/
+ul li{
+    color: #555;
+}
+/*SELECTOR DE HIJO DIRECTO*/
+li > em {  /* con x > y decimos que queremos que y sea hijo directo de x*/
+    color: red;
+}
+
+/*SELECTOR DE ADYACENTES(HERMANO)*/
+h1 + p {  /*le doy estilo a UN p(solo al primero que venga despues) que este DESPUES de UN h1*/
+    color: blue;
+}
+
+h1 + p + p + ul {
+    background-color: #bbb;
+}
+
+/*SELECTOR DE HERMANOS GENERALES(MAS DE UN HERMANO)*/
+h1 ~ p { /*estilo a TODOS los p despues del h1*/
+    color: blue;
+}
+
+h1,p {
+    color:brown;
+}
+
+
+

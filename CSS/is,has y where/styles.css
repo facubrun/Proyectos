@@ -1,0 +1,60 @@
+/* section .elemento1,
+ section .elemento2,
+section .elemento3 {
+    color: red;
+} MEJOR USANDO:*/ 
+
+/* MODIFICANDO LOS ELEMENTOS 1, 2 Y 3 QUE ESTAN DENTRO DE ALGUN SECTION*/
+section :is(.elemento1, .elemento2, .elemento3) {
+    color: blue;
+}
+
+/*body h1, body h2, body h3, ...
+MEJOR USANDO:*/
+
+body :is(h1,h2,h3,h4,h5) {
+    color: green;
+}
+
+/*IS() CAMBIA la especificidad mientras que WHERE() NO lo hace:*/
+
+section :where(.elemento1, .elemento2, .elemento3){
+    color:aqua; /*ver que mantiene la especificidad de los elems (0,0,1)*/
+}
+
+/*si section tiene algo entonces se le agrega las propiedades dadas en css*/
+section:has(.elemento1) { /*como un if, section tiene al .elemento1?*/
+    background-color: #eee;
+    color: #fff;
+}
+
+ul:has(+div) { /* si a UL le sigue un DIV, modificamos el UL*/
+    background-color: #555;
+}
+
+ul + div {  /* ASI modificamos el div*/
+    background-color: #aaa;
+}
+
+div{
+    padding: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+label:has(input:valid) {
+    color: green;
+}
+
+label:has(input:invalid) {
+    color: red;
+}
+
+input{
+    color: inherit;
+}
+
+
+

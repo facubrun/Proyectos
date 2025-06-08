@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Textarea</title>
+</head>
+<body>
+    <form>
+        <h2>Formulario de contacto</h2>
+        
+        <!-- SIMPLE INPUTS-->
+    <fieldset>
+        <legend>INFORMACION BÁSICA</legend>
+            <div class="form_input">
+                <label>Nombre completo
+                    <input type="text" placeholder="Jorge Gloe">
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Email
+                    <input type="email" placeholder="jorgegloe@gmail.com">
+                </label> 
+            </div>
+            <div class="form_input">
+                <label>Asunto
+                    <input type="text" placeholder="Asunto de tu mensaje">
+                </label> 
+            </div>
+    </fieldset>        
+        <!-- SELECT & OPTION-->
+        <div class="form_input">
+            <label>Género
+                <select name="type-of-user">
+                    <option value="user1">Masculino</option>
+                    <option value="user2">Femenino</option>
+                    <option value="user3">Otro</option>
+                </select>
+        </label>
+        </div>
+
+         <!-- DATALIST & OPTION -->
+         <div class="form_input">
+            <label>Referente
+                <input list="referente" name="referente">
+                <datalist id ="referente" name="type-of-user">
+
+                    <option value="Amigo"> Me lo recomendo un amigo</option>
+                    <option value="Familiar">Me lo recomendo un familiar</option>
+                    <option value="Otro">Me lo recomendo otra persona</option>
+                </datalist>
+        </label>
+        </div>
+
+        <!-- TEXTAREA -->
+        <div class="form_input">
+            <label>Mensaje
+                <textarea rows="4" maxlength="256" placeholder="Deja tu mensaje..."></textarea>
+            </label>    
+        </div>
+        <div class="form_input">
+            <label>Acepto los <a href="terms.html" target="blank">terminos y condiciones</a>
+                <input type="checkbox" class="checkbox">
+            </label>    
+        </div>
+    </form>
+</body>
+</html> 

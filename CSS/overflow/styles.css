@@ -1,0 +1,19 @@
+body {
+    background-color: #ccc;
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.box{
+    width: 220px;
+    height: 220px; /*si defino el alto, la caja se desborda de texto*/
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    color: red;
+    position: relative;
+    left: 0;
+    border: 2px solid #0009;
+    overflow: auto; /*hidden reserva un espacio para poner la barra de scroll, clip NO hace eso*/
+}

@@ -1,0 +1,13 @@
+video{
+    width: 1400px;
+    height: 720px;
+    background-color: black;
+}
+
+audio{
+    width: 100%;
+}
+
+track{
+    text-align: center;
+}

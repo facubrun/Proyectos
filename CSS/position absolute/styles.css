@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #ccc;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.contenedor {
+    border: 2px solid #000;
+    margin: 30px 50px;
+    background-color: #fff;
+    position: relative;
+    height: 500px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #db7;
+    color: #fff;
+}
+
+.box--blue {
+    background-color: #37d;
+    position: absolute; /*la caja azul ya no ocupa lugar--se posiciona respecto al elem. raiz*/
+    top: 40px;
+    opacity: 0.3;
+}
+
+.box--red {
+    background-color: #e53;
+
+}
+
+/*RELATIVE: RESERVA EL ESPACIO EN LA PAGINA SE MUEVE A PARTIR DE SU PROPIO TOP,BOTTOM,LEFT Y RIGHT. CREA CONTEXTO DE APILAMIENTO
+  ABSOLUTE: PIERDE EL ESPACIO EN LA PAGINA.LAS POSICIONES TOP,BOTTOM,LEFT,RIGTH SON RELATIVAS A UN ELEMENTO EN PARTICULAR(pierde su espacio en la pagina), SI NO EXISTE TAL ELEMENTO, SE POSICIONA RESPECTO AL ELEMENTO RAIZ*/

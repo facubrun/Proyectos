@@ -1,0 +1,12 @@
+.box{
+    padding: 40px 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    /*background: rgb(155, 200, 255); /*(la cant. de rojo que quiero,la cant de verde, la cant de azul) con rangos entre 0 y 255--- rgba(rojo,verde,azul,opacidad) y la opacidad va del 0(transparente) al 1(opaco)*/
+    background: #f80e;   /*#(rojo)(verde)(azul)-opacidad- con valores entre 0 y f*/
+    margin: 20px;
+}

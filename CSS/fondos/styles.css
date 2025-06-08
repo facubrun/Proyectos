@@ -1,0 +1,35 @@
+body{
+    background-color: #25a;
+    margin: 0;
+    font-size: 24px;
+    color:#fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    margin: 20px;
+    /*background: #fff;
+    background-image: url("https://www.fing.edu.uy/sites/default/files/inline-images/Logo_Fing%2BUdelar_horizontal_RGB.png");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed; */
+    margin: 0;
+    background: url("https://www.fing.edu.uy/sites/default/files/inline-images/Logo_Fing%2BUdelar_horizontal_RGB.png") center / contain fixed #fff;
+}
+
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+    text-align: center;
+    
+}
+
+h2{
+    text-decoration-line: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 80px;
+    color: #fff;
+}

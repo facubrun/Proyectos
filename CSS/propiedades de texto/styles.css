@@ -1,0 +1,24 @@
+p {
+    color: red;
+    font-family: facu; /*se puede elegir mas de un texto por si no carga el primero*/
+    font-size: 20px;
+    font-weight: 300; /*"negrita" = 700 = bold, bolder lo hace mas grueso al texto*/
+    font-style: italic;
+    text-align: start;
+    text-decoration: overline underline blue;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    text-decoration: line-through black;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "facu";
+    src: url("fonts/AnonymousPro-Regular.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: "facu";
+    src: url("fonts/AnonymousPro-Italic.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "facu";
+    src: url("fonts/AnonymousPro-Bold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "facu";
+    src: url("fonts/AnonymousPro-ExtraBold.ttf");
+    font-weight: 900;
+} /*varias versiones para mi texto*/
